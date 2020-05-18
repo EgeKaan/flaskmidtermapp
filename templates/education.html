@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  EKS-Eğitim
+{% endblock title %}
+
+{% block body %}
+
+<div class="col-md-7 heading-section ftco-animate">
+    <h2 class="mb-4">Eğitim Bilgileri</h2>
+</div>
+<hr>
+<div class="container">
+    <table style="width: 100%;">
+        <tr class="ftco-animate">
+            <td><p style="text-align: justify;"><b>Eskişehir Cengiz Topel İlkokulu</b><br>2006-2010</p></td>
+            <td><img src="{{url_for('static', filename='images/school_1.png') }}" alt="Cengiz Topel İlkokulu" width="100%"></td>
+        </tr>
+        <tr><td><br></td></tr>
+        <tr class="ftco-animate">
+            <td><img src="{{url_for('static', filename='images/school_5.png') }}" alt="Bülent Okan İlkokulu"  width="100%"></td>
+            <td><p style="text-align: justify;"><b>İzmir Bülent Okan İlkokulu</b><br>2010-2011</p></td>
+        </tr>
+        <tr><td><br></td></tr>
+        <tr class="ftco-animate">
+            <td><p style="text-align: justify;"><b>İzmir Bülent Okan Ortaokulu</b><br>2011-2014</p></td>
+            <td><img src="{{url_for('static', filename='images/school_2.png') }}" alt="Bülent Okan Ortaokulu"  width="100%"></td>
+        </tr>
+        <tr><td><br></td></tr>
+        <tr class="ftco-animate">
+            <td><img src="{{url_for('static', filename='images/school_3.png') }}" alt="İzmir Karşıyaka Gazi Anadolu Lisesi"  width="100%"></td>
+            <td><p style="text-align: justify;"><b>İzmir Karşıyaka Gazi Anadolu Lisesi</b><br>2014-2018</p></td>
+        </tr>
+        <tr><td><br></td></tr>
+        <tr class="ftco-animate">
+            <td><p style="text-align: justify;"><b>Isparta Uygulamalı Bilimler Üniversitesi <br>Teknik Bilimler MYO</b><br>Bilgisayar Programcılığı <br> 2018-Devam Ediyor</p></td>
+            <td><img src="{{url_for('static', filename='images/school_4.png') }}" alt="Isparta Uygulamalı Bilimler Üniversitesi"  width="100%"></td>
+        </tr>
+        <tr><td><br></td></tr>
+    </table>
+</div>
+
+{% endblock body %}

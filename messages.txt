@@ -1,0 +1,6 @@
+egekaan;egekaan;egekaan;egekaan;
+egekaan;deneme;deneme;deneme;
+;;;;
+Ege Kaan ;ŞAHAN;egekaansahan@gmail.com;Deneme mesaj içeriği 1234-12345;
+Ege Kaan ;ŞAHAN;egekaansahan@gmail.com;Deneme mesaj içeriği 1234 12345;
+Ege Kaan ;ŞAHAN;egekaansahan@gmail.com;Deneme mesaj içeriği 1234 12345;

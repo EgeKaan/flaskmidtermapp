@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  EKS-Hakkında
+{% endblock title %}
+
+{% block body %}
+<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+    <div class="container">
+        <div class="row d-flex no-gutters" style="background-color: white;">
+            <div class="col-md-6 col-lg-6 d-flex ftco-animate" style="background-color: white;">
+                <div class="img-about img d-flex align-items-stretch" style="background-color: white;">
+                    <img class="img d-flex align-self-stretch align-items-center" src="{{url_for('static', filename='images/pp4.jpg') }}" alt="Isparta Uygulamalı Bilimler Üniversitesi" >
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 pl-md-5 py-5">
+                <div class="row justify-content-start pb-3">
+                    <div class="col-md-12 heading-section ftco-animate"> 
+                        <h2 class="mb-4">Hakkında</h2>
+                        <p>Isparta Uygulamalı Bilimler Üniversitesi Teknik Bilimler Meslek Yüksekokulu öğrencisiyim.</p>
+                        <ul class="about-info mt-4 px-md-0 px-2">
+                            <li class="d-flex"><span>Adı:</span> <span>Ege Kaan ŞAHAN</span></li>
+                            <li class="d-flex"><span>Doğum Tarihi:</span> <span>31 Mart 2000</span></li>
+                            <li class="d-flex"><span>Doğum Yeri:</span> <span>Eskişehir</span></li>
+                            <li class="d-flex"><span>Adresi:</span> <span>ISUBU TBMYO Isparta TR</span></li>
+                            <li class="d-flex"><span>Email Adresi:</span> <span>egekaansahan@gmail.com</span></li>
+                            <li class="d-flex"><span>Telefon No: </span> <span>+90 544 892 10 75</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                    <div class="text">
+                        <p class="mb-4">
+                            <span class="number" data-number="10">0</span>
+                            <span>Üzerinde çalışılan projeler</span>
+                        </p>
+                        <p><a href="#" class="btn btn-primary py-3 px-3">CV İNDİR</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-partner">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm ftco-animate">
+                <a href="#" class="partner"><img src="{{url_for('static', filename='images/partner-1.png') }}" class="img-fluid" alt="Colorlib Template"></a>
+            </div>
+            <div class="col-sm ftco-animate">
+                <a href="#" class="partner"><img src="{{url_for('static', filename='images/partner-2.png') }}" class="img-fluid" alt="Colorlib Template"></a>
+            </div>
+            <div class="col-sm ftco-animate">
+                <a href="#" class="partner"><img src="{{url_for('static', filename='images/partner-3.png') }}" class="img-fluid" alt="Colorlib Template"></a>
+            </div>
+            <div class="col-sm ftco-animate">
+                <a href="#" class="partner"><img src="{{url_for('static', filename='images/partner-4.png') }}" class="img-fluid" alt="Colorlib Template"></a>
+            </div>
+            <div class="col-sm ftco-animate">
+                <a href="#" class="partner"><img src="{{url_for('static', filename='images/partner-5.png') }}" class="img-fluid" alt="Colorlib Template"></a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock body %}
+            
+        
